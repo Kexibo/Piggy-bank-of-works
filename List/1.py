@@ -1,7 +1,7 @@
 ocenki=input()
+ocenki.split(' ')
+n=[]
 x=0
-n=0
-for i in ocenki:
-    x=x+i
-    n+=1
-print(x,n)
+for i in n:
+    x+=ocenki.count(i)
+print(ocenki,' ',len(ocenki),' ',x/len(ocenki)*100)
