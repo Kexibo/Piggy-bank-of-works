@@ -1,0 +1,10 @@
+from tkinter import *
+x=Tk()
+x.title("Game")
+c = Canvas(x, width=1000, height=900, background="#000000")
+c.pack()
+c.create_line(250, 100, 100, 200, fill="white")
+c.create_line(250, 100, 250, 250, fill="white")
+c.create_line(100, 200, 100, 350, fill="white")
+c.create_line(100, 350, 250, 250, fill="white")
+x.mainloop()
